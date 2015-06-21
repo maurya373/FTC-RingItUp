@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A3017" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="F5T-ah-Lvq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="F5T-ah-Lvq">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - Side 1-->
+        <!--Side 1-->
         <scene sceneID="SfR-GB-TM6">
             <objects>
                 <viewController id="94R-D6-p6I" customClass="FirstViewController" sceneMemberID="viewController">
@@ -257,7 +257,7 @@
             </objects>
             <point key="canvasLocation" x="2435" y="-1450"/>
         </scene>
-        <!--Second View Controller - Side 2-->
+        <!--Side 2-->
         <scene sceneID="hNK-SQ-vZf">
             <objects>
                 <viewController id="Gqo-dk-PQc" customClass="SecondViewController" sceneMemberID="viewController">
@@ -510,7 +510,7 @@
             </objects>
             <point key="canvasLocation" x="2424" y="-338"/>
         </scene>
-        <!--ExtrasVC - Item-->
+        <!--Item-->
         <scene sceneID="Zmw-u0-Wjl">
             <objects>
                 <viewController id="yos-OE-zph" customClass="ExtrasVC" sceneMemberID="viewController">
@@ -822,10 +822,6 @@
                                     <action selector="actionEmailComposer" destination="F5T-ah-Lvq" eventType="touchUpInside" id="S1J-Wu-eie"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="viperlogo.png" id="iRS-yw-0E8">
-                                <rect key="frame" x="226" y="734" width="81" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Team #4545" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T2v-4a-76u">
                                 <rect key="frame" x="258" y="943" width="252" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -1271,7 +1267,6 @@
         <image name="smallgear.png" width="269" height="265"/>
         <image name="tabrack.png" width="30" height="30"/>
         <image name="tabrack2.png" width="30" height="30"/>
-        <image name="viperlogo.png" width="463" height="500"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

@@ -55,7 +55,6 @@
 		5C4A277716DC870800AA5EB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A276916DC868B00AA5EB5 /* Default.png */; };
 		5C4A277916DC874600AA5EB5 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A277316DC86E600AA5EB5 /* Default-Landscape~ipad.png */; };
 		5C4A899B16D958040000936F /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4A899A16D958040000936F /* MessageUI.framework */; };
-		5C4A899E16D9707D0000936F /* smallviperlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A899D16D9707D0000936F /* smallviperlogo.png */; };
 		5C4A89AD16DB1B7C0000936F /* infoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A89AB16DB1B7C0000936F /* infoBtn.png */; };
 		5C4A89AE16DB1B7C0000936F /* ipad_infoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A89AC16DB1B7C0000936F /* ipad_infoBtn.png */; };
 		5C4A89BA16DC45210000936F /* OnePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4A89B916DC45210000936F /* OnePageVC.m */; };
@@ -133,7 +132,6 @@
 		5CD0BF44167843F900E29D9C /* tabrack.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0BF3A167843F900E29D9C /* tabrack.png */; };
 		5CD0BF49167843F900E29D9C /* ringrackplain.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0BF3F167843F900E29D9C /* ringrackplain.png */; };
 		5CD0BF4A167843F900E29D9C /* ringrackplainflipped.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0BF40167843F900E29D9C /* ringrackplainflipped.png */; };
-		5CD0BF4B167843F900E29D9C /* viperlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0BF41167843F900E29D9C /* viperlogo.png */; };
 		5CD0BF4C167843F900E29D9C /* quadxlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0BF42167843F900E29D9C /* quadxlogo.png */; };
 /* End PBXBuildFile section */
 
@@ -186,7 +184,6 @@
 		5C4A277316DC86E600AA5EB5 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
 		5C4A277516DC86ED00AA5EB5 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
 		5C4A899A16D958040000936F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		5C4A899D16D9707D0000936F /* smallviperlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallviperlogo.png; sourceTree = "<group>"; };
 		5C4A89AB16DB1B7C0000936F /* infoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoBtn.png; sourceTree = "<group>"; };
 		5C4A89AC16DB1B7C0000936F /* ipad_infoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_infoBtn.png; sourceTree = "<group>"; };
 		5C4A89B816DC45210000936F /* OnePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnePageVC.h; sourceTree = "<group>"; };
@@ -279,7 +276,6 @@
 		5CD0BF3A167843F900E29D9C /* tabrack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabrack.png; sourceTree = "<group>"; };
 		5CD0BF3F167843F900E29D9C /* ringrackplain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ringrackplain.png; sourceTree = "<group>"; };
 		5CD0BF40167843F900E29D9C /* ringrackplainflipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ringrackplainflipped.png; sourceTree = "<group>"; };
-		5CD0BF41167843F900E29D9C /* viperlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viperlogo.png; sourceTree = "<group>"; };
 		5CD0BF42167843F900E29D9C /* quadxlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quadxlogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -420,7 +416,6 @@
 				5C3D144416F7F13C00966790 /* plus1.png */,
 				5C4A89AB16DB1B7C0000936F /* infoBtn.png */,
 				5C4A89AC16DB1B7C0000936F /* ipad_infoBtn.png */,
-				5C4A899D16D9707D0000936F /* smallviperlogo.png */,
 				5C6DE08616D72EA9007496BC /* optionGearNo.png */,
 				5C6DE08716D72EA9007496BC /* ipad_optionGearNo.png */,
 				5C6DE08216D72DA3007496BC /* optionGear.png */,
@@ -438,7 +433,6 @@
 				5CD0BF3A167843F900E29D9C /* tabrack.png */,
 				5CD0BF3F167843F900E29D9C /* ringrackplain.png */,
 				5CD0BF40167843F900E29D9C /* ringrackplainflipped.png */,
-				5CD0BF41167843F900E29D9C /* viperlogo.png */,
 				5CD0BF42167843F900E29D9C /* quadxlogo.png */,
 			);
 			name = Other;
@@ -578,7 +572,6 @@
 				5CD0BF44167843F900E29D9C /* tabrack.png in Resources */,
 				5CD0BF49167843F900E29D9C /* ringrackplain.png in Resources */,
 				5CD0BF4A167843F900E29D9C /* ringrackplainflipped.png in Resources */,
-				5CD0BF4B167843F900E29D9C /* viperlogo.png in Resources */,
 				5CD0BF4C167843F900E29D9C /* quadxlogo.png in Resources */,
 				5C255FD816D319AF00911705 /* ipadbluering.png in Resources */,
 				5C255FDD16D319F400911705 /* ipadbluering@2x.png in Resources */,
@@ -624,7 +617,6 @@
 				5C6DE08516D72DA3007496BC /* ipad_optionGear.png in Resources */,
 				5C6DE08816D72EA9007496BC /* optionGearNo.png in Resources */,
 				5C6DE08916D72EA9007496BC /* ipad_optionGearNo.png in Resources */,
-				5C4A899E16D9707D0000936F /* smallviperlogo.png in Resources */,
 				5C4A89AD16DB1B7C0000936F /* infoBtn.png in Resources */,
 				5C4A89AE16DB1B7C0000936F /* ipad_infoBtn.png in Resources */,
 				5C1B050816DC73AD003BADB8 /* Icon.png in Resources */,

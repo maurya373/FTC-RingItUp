@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="9Kt-6w-Xgq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" promptedForUpgradeToXcode5="NO" initialViewController="9Kt-6w-Xgq">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+        <deployment identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Main Menu View Controller-->
@@ -92,10 +94,6 @@
                                     <action selector="actionEmailComposer" destination="9Kt-6w-Xgq" eventType="touchUpInside" id="IPL-ys-nBf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="smallviperlogo.png" id="ewF-it-I41">
-                                <rect key="frame" x="60" y="326" width="40" height="41"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QeU-YT-8Tv">
                                 <rect key="frame" x="275" y="418" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -408,7 +406,7 @@
             </objects>
             <point key="canvasLocation" x="-321" y="1153"/>
         </scene>
-        <!--First View Controller - First-->
+        <!--First-->
         <scene sceneID="KnA-PE-Lls">
             <objects>
                 <viewController title="First" modalTransitionStyle="flipHorizontal" id="jMH-hF-a0T" customClass="FirstViewController" sceneMemberID="viewController">
@@ -667,7 +665,7 @@
             </objects>
             <point key="canvasLocation" x="447" y="278"/>
         </scene>
-        <!--Second View Controller - Second-->
+        <!--Second-->
         <scene sceneID="13R-06-RK1">
             <objects>
                 <viewController title="Second" id="ELB-R9-i1F" customClass="SecondViewController" sceneMemberID="viewController">
@@ -926,7 +924,7 @@
             </objects>
             <point key="canvasLocation" x="447" y="830"/>
         </scene>
-        <!--ExtrasVC - Multipliers-->
+        <!--Multipliers-->
         <scene sceneID="9gu-UK-cQG">
             <objects>
                 <viewController id="XZP-SK-Yx8" customClass="ExtrasVC" sceneMemberID="viewController">
@@ -1121,7 +1119,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="gan-3P-E40">
             <objects>
-                <tabBarController storyboardIdentifier="" id="Chg-tp-rav" sceneMemberID="viewController">
+                <tabBarController id="Chg-tp-rav" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="J8A-sb-Gs2">
@@ -1264,143 +1262,9 @@
         <image name="ringrackplain.png" width="800" height="800"/>
         <image name="ringrackplainflipped.png" width="800" height="800"/>
         <image name="smallgear.png" width="269" height="265"/>
-        <image name="smallviperlogo.png" width="77" height="86"/>
         <image name="tabrack.png" width="30" height="30"/>
         <image name="tabrack2.png" width="30" height="30"/>
     </resources>
-    <classes>
-        <class className="ExtrasVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ExtrasVC.h"/>
-            <relationships>
-                <relationship kind="outlet" name="bArea" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="blue1" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="blue2" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="blueBonus" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="bluePeg" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="bluePercent" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="blueRing" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="blueScore" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="blueTotal" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="rArea" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="red1" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="red2" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="redBonus" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="redPeg" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="redPercent" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="redRing" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="redScore" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="redTotal" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clearRack:"/>
-                <relationship kind="outlet" name="BlueOnMat" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Bscore" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="RedOnMat" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Rscore" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="bluering" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="blueringsleft" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="mat" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="plus1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="redring" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="redringsleft" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="HelpViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HelpViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="descrip" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="onePage" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="qanda" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="LongDescripVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LongDescripVC.h"/>
-            <relationships>
-                <relationship kind="outlet" name="wv" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="MainMenuViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainMenuViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="actionEmailComposer"/>
-                <relationship kind="action" name="startScorer:"/>
-                <relationship kind="action" name="turnOffGears:"/>
-                <relationship kind="outlet" name="QXgear" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="Vgear" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="contactgear" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="gearSwitch" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="helpgear" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="scoregear" candidateClass="UIImageView"/>
-            </relationships>
-        </class>
-        <class className="OnePageVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/OnePageVC.h"/>
-            <relationships>
-                <relationship kind="outlet" name="wv" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="QandAVC" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/QandAVC.h"/>
-            <relationships>
-                <relationship kind="outlet" name="wv" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="SecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="clearRack:"/>
-                <relationship kind="outlet" name="BlueOnMat" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Bscore" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="RedOnMat" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="Rscore" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="bluering" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="blueringsleft" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="mat" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="pArea9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg2" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg3" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg4" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg5" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg6" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg7" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg8" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="peg9" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="plus1" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="redring" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="redringsleft" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
